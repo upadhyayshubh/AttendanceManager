@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   
+    android:background="@drawable/img4"
+     >
+
+    <TextView
+        android:id="@+id/sub1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="SUBJECT 1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/add1id"
+        style="?android:attr/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/sub1id"
+        android:layout_below="@+id/sub1id"
+        android:layout_marginLeft="15dp"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvadd1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add1id"
+        android:layout_alignBottom="@+id/add1id"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/add1id"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvbunk1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvadd1id"
+        android:layout_alignBottom="@+id/tvadd1id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/bunk1id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunk1id"
+        style="?android:attr/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/add1id"
+        android:layout_alignBottom="@+id/add1id"
+        android:layout_marginLeft="55dp"
+        android:layout_toRightOf="@+id/add1id"
+        android:text="BUNK" />
+
+    <Button
+        android:id="@+id/attendm2id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/add1id"
+        android:layout_below="@+id/tvsubm2"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm2id"
+        android:layout_alignBottom="@+id/attendm2id"
+        android:layout_alignLeft="@+id/tvadd1id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm2id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvsubm2"
+        android:layout_toLeftOf="@+id/tvbunk1id"
+        android:text="BUNK" />
+
+    <TextView
+        android:id="@+id/tvbunkm2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm2id"
+        android:layout_alignBottom="@+id/tvattendm2id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm2id"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvsubm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sub1id"
+        android:layout_below="@+id/add1id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvsubm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvsubm2"
+        android:layout_below="@+id/attendm2id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT 3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/attendm3id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/attendm2id"
+        android:layout_below="@+id/tvsubm3"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm3id"
+        android:layout_alignBottom="@+id/attendm3id"
+        android:layout_alignLeft="@+id/tvattendm2id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm3id"
+        android:layout_alignBottom="@+id/tvattendm3id"
+        android:layout_alignLeft="@+id/bunkm2id"
+        android:text="BUNK" />
+    
+    <TextView
+        android:id="@+id/tvbunkm3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm3id"
+        android:layout_alignBottom="@+id/tvattendm3id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm3id"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvsubm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvsubm3"
+        android:layout_below="@+id/attendm3id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT 4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/attendm4id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/attendm3id"
+        android:layout_below="@+id/tvsubm4"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm4id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm4id"
+        android:layout_alignBottom="@+id/attendm4id"
+        android:layout_alignLeft="@+id/tvattendm3id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm4id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/bunkm3id"
+        android:layout_below="@+id/tvsubm4"
+        android:text="BUNK" />
+
+    <TextView
+        android:id="@+id/tvbunkm4id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm4id"
+        android:layout_alignBottom="@+id/tvattendm4id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm4id"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvsubm5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvsubm4"
+        android:layout_below="@+id/attendm4id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT 5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/attendm5id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/attendm4id"
+        android:layout_below="@+id/tvsubm5"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm5id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm5id"
+        android:layout_alignBottom="@+id/attendm5id"
+        android:layout_alignLeft="@+id/tvattendm4id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm5id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/tvattendm5id"
+        android:layout_alignBottom="@+id/tvattendm5id"
+        android:layout_alignLeft="@+id/bunkm4id"
+        android:text="BUNK" />
+
+    <TextView
+        android:id="@+id/tvbunkm5id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm5id"
+        android:layout_alignBottom="@+id/tvattendm5id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm5id"
+        android:text="0" />
+
+    
+    
+      <TextView
+        android:id="@+id/tvsubm6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvsubm5"
+        android:layout_below="@+id/attendm5id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT 6"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/attendm6id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/attendm5id"
+        android:layout_below="@+id/tvsubm6"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm6id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm6id"
+        android:layout_alignBottom="@+id/attendm6id"
+        android:layout_alignLeft="@+id/tvattendm5id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm6id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/tvattendm6id"
+        android:layout_alignBottom="@+id/tvattendm6id"
+        android:layout_alignLeft="@+id/bunkm5id"
+        android:text="BUNK" />
+
+    <TextView
+        android:id="@+id/tvbunkm6id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm6id"
+        android:layout_alignBottom="@+id/tvattendm6id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm6id"
+        android:text="0" />
+    
+    
+     <TextView
+        android:id="@+id/tvsubm7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvsubm6"
+        android:layout_below="@+id/attendm6id"
+        android:layout_marginTop="40dp"
+        android:text="SUBJECT 7"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/attendm7id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/attendm6id"
+        android:layout_below="@+id/tvsubm7"
+        android:text="ATTEND" />
+
+    <TextView
+        android:id="@+id/tvattendm7id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attendm7id"
+        android:layout_alignBottom="@+id/attendm7id"
+        android:layout_alignLeft="@+id/tvattendm6id"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bunkm7id"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/tvattendm7id"
+        android:layout_alignBottom="@+id/tvattendm7id"
+        android:layout_alignLeft="@+id/bunkm6id"
+        android:text="BUNK" />
+
+    <TextView
+        android:id="@+id/tvbunkm7id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvattendm7id"
+        android:layout_alignBottom="@+id/tvattendm7id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bunkm7id"
+        android:text="0" />
+    
+    
+</RelativeLayout>
+    </ScrollView>
+

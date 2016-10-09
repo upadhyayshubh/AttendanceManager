@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/viewid"
+		android:showAsAction="always"
+		android:title="DETAIL VIEW"        
+        
+        />
+    
+    <item 
+        android:id="@+id/editid"
+        android:showAsAction="always"
+        android:title="EDIT"
+        
+        
+        />
+    
+
+</menu>

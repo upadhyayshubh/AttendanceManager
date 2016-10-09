@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img12" >
+
+    <EditText
+        android:id="@+id/edsube1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        
+        android:ems="10" >
+
+       
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvattende1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edsube1id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende1id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edsube1id"
+        android:layout_toRightOf="@+id/tvattende1id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/tvbunke1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende1id"
+        android:layout_alignRight="@+id/edsube1id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke1id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/edattende1id"
+        android:layout_toRightOf="@+id/tvbunke1id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edattende1id"
+        android:ems="10" 
+        android:layout_marginTop="30dp"
+        
+        >
+        
+        
+
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvattende2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende1id"
+        android:layout_below="@+id/edsube2id"
+        android:layout_marginTop="10dp"
+        
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende2id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende2id"
+        android:layout_alignBottom="@+id/tvattende2id"
+        android:layout_alignLeft="@+id/edattende1id"
+        android:inputType="number"
+        android:digits="0123456789"
+        
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende2id"
+        android:layout_alignLeft="@+id/tvbunke1id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke2id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke1id"
+        android:layout_below="@+id/edsube2id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvattende3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende2id"
+        android:layout_below="@+id/edsube3id"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende3id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende3id"
+        android:layout_alignBottom="@+id/tvattende3id"
+        android:layout_alignLeft="@+id/edattende2id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende3id"
+        android:layout_alignLeft="@+id/tvbunke2id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke3id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke2id"
+        android:layout_below="@+id/edsube3id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube3id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edattende2id"
+        android:layout_toLeftOf="@+id/edbunke3id"
+        android:layout_marginTop="40dp"
+        
+        android:ems="10" />
+    
+    
+    <TextView
+        android:id="@+id/tvattende4id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende3id"
+        android:layout_below="@+id/edsube4id"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende4id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende4id"
+        android:layout_alignBottom="@+id/tvattende4id"
+        android:layout_alignLeft="@+id/edattende3id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke4id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende4id"
+        android:layout_alignLeft="@+id/tvbunke3id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke4id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke3id"
+        android:layout_below="@+id/edsube4id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube4id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edattende3id"
+        android:layout_toLeftOf="@+id/edbunke4id"
+        android:layout_marginTop="40dp"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/tvattende5id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende4id"
+        android:layout_below="@+id/edsube5id"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende5id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende5id"
+        android:layout_alignBottom="@+id/tvattende5id"
+        android:layout_alignLeft="@+id/edattende4id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke5id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende5id"
+        android:layout_alignLeft="@+id/tvbunke4id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke5id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke4id"
+        android:layout_below="@+id/edsube5id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube5id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edbunke4id"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/edbunke5id"
+        android:ems="10" >
+
+        
+    </EditText>
+    <TextView
+        android:id="@+id/tvattende6id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende5id"
+        android:layout_below="@+id/edsube6id"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende6id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende6id"
+        android:layout_alignBottom="@+id/tvattende6id"
+        android:layout_alignLeft="@+id/edattende5id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke6id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende6id"
+        android:layout_alignLeft="@+id/tvbunke5id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke6id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke5id"
+        android:layout_below="@+id/edsube6id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube6id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edbunke5id"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/edbunke6id"
+        android:ems="10" >
+
+            </EditText>
+            
+    
+    <TextView
+        android:id="@+id/tvattende7id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende6id"
+        android:layout_below="@+id/edsube7id"
+        android:layout_marginTop="10dp"
+        android:text="ATTEND" />
+
+    <EditText
+        android:id="@+id/edattende7id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tvattende7id"
+        android:layout_alignBottom="@+id/tvattende7id"
+        android:layout_alignLeft="@+id/edattende6id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvbunke7id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvattende7id"
+        android:layout_alignLeft="@+id/tvbunke6id"
+        android:text="BUNK" />
+
+    <EditText
+        android:id="@+id/edbunke7id"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edbunke6id"
+        android:layout_below="@+id/edsube7id"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edsube7id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edbunke6id"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/edbunke7id"
+        android:ems="10" >
+
+            </EditText>
+   
+    
+     <TextView
+        android:id="@+id/tvreqattendeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvattende7id"
+        android:layout_below="@+id/edattende7id"
+        android:layout_marginTop="60dp"
+        android:text="Minimum Attendance % :" />
+
+    <EditText
+        android:id="@+id/edreqattendeid"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/tvbunke7id"
+        android:layout_alignParentBottom="true"
+        android:digits="0123456789"
+        android:ems="10"
+        android:inputType="number" />
+    
+</RelativeLayout>
+</ScrollView>
